@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- --------- CSS ---------- -->
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://kit.fontawesome.com/ffbab43f38.js" crossorigin="anonymous"></script>
+
+
+    <title>Portfolio | Suman Kumar</title>
+</head>
+
+<body>
+    <div class="container">
+        <!-- --------------- NAVBAR ------------------------ --------------- -->
+        <nav id="header">
+            <div class="nav-logo">
+                <p class="nav-name">Portfolio</p>
+            </div>
+            <div class="nav-menu" id="myNavMenu">
+                <ul class="nav_menu_list">
+                    <li class="nav_list">
+                        <a href="#home" class="nav-link">Home<i class="fa fa-home"></i></a>
+                    </li>
+                    <li class="nav_list">
+                        <a href="#about" class="nav-link">About<i class="fa fa-user"></i></a>
+                    </li>
+                    <li class="nav_list">
+                        <a href="#projects" class="nav-link">Projects<i class="fa fa-briefcase"></i></a>
+                    </li>
+                    <li class="nav_list">
+                        <a href="#contact" class="nav-link">Contact<i class="fa fa-comments"></i></a>
+                    </li>
+                </ul>
+            </div>
+            <div class="nav-menu-btn">
+                <i class="fa fa-bars" onclick="myMenuFunction()"></i>
+            </div>
+        </nav>
+
+
+        <!-- -------------- MAIN ---------------- -->
+        <main class="wrapper">
+            <!-- -------------- HOME Page Text--------------- ---------------- -->
+            <section class="featured-box" id="home">
+                <div class="featured-text">
+                    <div class="first-text">
+                        <h1>Hi, </h1>
+                        <h1>I'am <span>Suman </span>Kumar</h1>
+                    </div>
+                    <div class="featured-name">
+                        <p>I'am a passionate <span class="typedText"></span></p>
+                    </div>
+
+                    <div class="featured-text-btn">
+                        <button class="btn">Download CV <i class="uil uil-file-alt"></i></button>
+                    </div>
+                    <div class="social-icons">
+                        <a href="https://www.linkedin.com/in/suman-kumar-963373233/"><i class="fa fa-linkedin"></i></a>
+                        <a href="https://github.com/SumanMuz"><i class="fa fa-github"></i></a>
+                        <a href="https://www.facebook.com/profile.php?id=100023776041459"><i class="fa fa-facebook"></i></a>
+                        <a href="https://www.instagram.com/suman_ku_5/"><i class="fa fa-instagram"></i></a>
+                    </div>
+                </div>
+                <div class="featured-image">
+                    <div class="image">
+                        <img src="images/s.png" alt="avatar">
+                    </div>
+                </div>
+
+            </section>
+            <!-- -------------- ABOUT SECTION ------------------------------------ ---------------- -->
+            <section class="section" id="about">
+                <div class="top-header">
+                    <h1>About Me</h1>
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <div class="about-info">
+                            <h3>My introduction</h3>
+                            <p>My name is 'SUMAN KUMAR'</p><br>
+                            <p>I am BTech CSE 3rd Year Student at BUDGE BUDGE INSTITUTE OF TECHNOLOGY KOLKATA.</p><br>
+                            <p>I am familiar with some Programming Language like C, C++, Java and Python.</p><br>
+                            <p>I am well-versed in HTML, CSS and JavaScript , and other cutting edge
+                                frameworks and libraries,which allows me to implement interactive features.
+                                Additionally, I have experirence working with content management systems (CMS) like
+                                WordPress.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="about-info">
+                            <div class="container-skill">
+                                <h3>Skills </h3>
+                                <!--------------------------------->
+                                <div class="skills">
+                                    <div class="details">
+                                        <span>HTML</span>
+                                        <span>85%</span>
+                                    </div>
+                                    <div class="bar">
+                                        <div id="html-bar"></div>
+                                    </div>
+                                </div>
+                                <!--------------------------------->
+                                <div class="skills">
+                                    <div class="details">
+                                        <span>CSS</span>
+                                        <span>75%</span>
+                                    </div>
+                                    <div class="bar">
+                                        <div id="css-bar"></div>
+                                    </div>
+                                </div>
+                                <!--------------------------------->
+                                <div class="skills">
+                                    <div class="details">
+                                        <span>JavaScript</span>
+                                        <span>50%</span>
+                                    </div>
+                                    <div class="bar">
+                                        <div id="js-bar"></div>
+                                    </div>
+                                </div>
+                                <!--------------------------------->
+                                <div class="skills">
+                                    <div class="details">
+                                        <span>WordPress</span>
+                                        <span>90%</span>
+                                    </div>
+                                    <div class="bar">
+                                        <div id="wp-bar"></div>
+                                    </div>
+                                </div>
+                                <!--------------------------------->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </section>
+
+            <!-- -------------- PROJECT SECTION ---------------- -->
+
+            <section class="section" id="projects">
+                <div class="top-header">
+                    <h1>Projects</h1>
+                </div>
+                <div class="project-container">
+                    <div class="work-list">
+                        <div class="work">
+                            <img src="images/todo.gif">
+                            <div class="layer">
+                                <h3>To Do List</h3>
+                                <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                            </div>
+                        </div>
+                        <div class="work">
+                            <img src="images/tic.gif">
+                            <div class="layer">
+                                <h3>Tic Tac Toe Game</h3>
+                                <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                            </div>
+                        </div>
+                        <div class="work">
+                            <img src="images/cal.gif">
+                            <div class="layer">
+                                <h3>Calculator</h3>
+                                <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <a href="#" class="btn-seemore">See more</a>
+                </div>
+            </section>
+
+            <!-- -------------- CONTACT SECTION ------------------------------- ---------------- -->
+
+            <section class="section" id="contact">
+                <div class="top-header">
+                    <h1>Contact Me</h1>
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <div class="contact-info">
+                            <h2>Find Me <i class="fa fa-hand-o-down"></i></h2>
+                            <p><i class="uil uil-envelope"></i> Email: sumankumuz75@gmail.com</p>
+                            <div class="social-icons">
+                                <a href="https://www.linkedin.com/in/suman-kumar-963373233/"><i class="fa fa-linkedin"></i></a>
+                                <a href="https://github.com/SumanMuz"><i class="fa fa-github"></i></a>
+                                <a href="https://www.facebook.com/profile.php?id=100023776041459"><i class="fa fa-facebook"></i></a>
+                                <a href="https://www.instagram.com/suman_ku_5/"><i class="fa fa-instagram"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="contact-right">
+                            <form name="submit-to-google-sheet">
+                                <input type="text" name="Name" placeholder="Full Name" required>
+                                <input type="text" name="Email" placeholder="Email" required>
+                                <textarea name="Message" rows="6" placeholder="Message..."></textarea>
+                                <button type="submit" class="btn btn2">Send<i class="fa fa-send-o"></i></button>
+                            </form>
+                            <span id="msg"></span>
+                        </div>
+                    </div>
+                </div>
+    </div>
+    </section>
+
+    </main>
+
+
+    <!-- --------------- FOOTER SECTION ------------------------------------------------ -->
+    <footer>
+        <div class="middle-footer">
+            <ul class="footer-menu">
+                <li class="footer_menu_list">
+                    <a href="#home">Home<i class="fa fa-home"></i></a>
+                </li>
+                <li class="footer_menu_list">
+                    <a href="#about">About<i class="fa fa-user"></i></a>
+                </li>
+                <li class="footer_menu_list">
+                    <a href="#projects">Projects<i class="fa fa-briefcase"></i></a>
+                </li>
+                <li class="footer_menu_list">
+                    <a href="#contact">Contact<i class="fa fa-comments"></i></a>
+                </li>
+            </ul>
+        </div>
+        <div class="social-icons">
+            <a href="https://www.linkedin.com/in/suman-kumar-963373233/"><i class="fa fa-linkedin"></i></a>
+            <a href="https://github.com/SumanMuz"><i class="fa fa-github"></i></a>
+            <a href="https://www.facebook.com/profile.php?id=100023776041459"><i class="fa fa-facebook"></i></a>
+            <a href="https://www.instagram.com/suman_ku_5/"><i class="fa fa-instagram"></i></a>
+        </div>
+        <div class="bottom-footer">
+            <p>Copyright &copy; <a href="#home" style="text-decoration: none;">Suman Kumar</a> - All rights reserved
+            </p>
+        </div>
+    </footer>
+
+    </div>
+
+    <!------------Typing JS Link---------------->
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+
+    <!-- ----- JS File Link -------- -->
+    <script src="script.js"></script>
+</body>
+
+</html>
